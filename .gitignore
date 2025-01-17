@@ -1,0 +1,8 @@
+/vendor/
+/.idea/.gitignore
+/.vscode/launch.json
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/php-xdebug-phpunit-setup.iml
+/.idea/phpunit.xml
+/.idea/vcs.xml

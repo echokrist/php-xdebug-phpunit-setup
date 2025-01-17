@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "9001:9001"  # PHP built-in server
+      - "9003:9003"  # Xdebug
+#    environment:
+#      XDEBUG_MODE: debug
+#      XDEBUG_START_WITH_REQUEST: yes
+#      XDEBUG_CLIENT_HOST: host.docker.internal
+#      XDEBUG_CLIENT_PORT: 9003
