@@ -1,5 +1,8 @@
 FROM php:latest
 
+RUN apt-get update
+RUN apt install git -y
+
 # Install Xdebug and necessary extensions
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 
